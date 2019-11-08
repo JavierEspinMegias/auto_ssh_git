@@ -5,7 +5,7 @@ echo ------------------------------
 echo Introduce email de GitHub ----
 echo ------------------------------
 read email
-git config --global user.name $email
+git config --global user.email $email
 
 echo ------------------------------
 echo Introduce nick de GitHub -----
