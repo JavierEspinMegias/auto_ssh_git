@@ -1,0 +1,30 @@
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..9346b56
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1,11 @@
++Este script automatiza la creacion de una id_rsa para git si no ha sido instalada previamente.
++En cualquier caso no habra cambios. Su proposito es la facil instalacion de git
++cuando estamos utilizando ordenadores congelados.
++
++This script automates the creation of a id_rsa for git if none is installed.
++Otherwise will not change anything. Its purpose is an easy install of git 
++when we are using frozen computers.
++
++
++
++![](https://media.giphy.com/media/l2JdVRfJozpjq70SA/giphy.gif)
+diff --git a/ssh_auto_git.sh b/ssh_auto_git.sh
+index b4badcb..4396a11 100644
+--- a/ssh_auto_git.sh
++++ b/ssh_auto_git.sh
+@@ -5,7 +5,7 @@ echo ------------------------------
+ echo Introduce email de GitHub ----
+ echo ------------------------------
+ read email
+-git config --global user.name $email
++git config --global user.email $email
+ 
+ echo ------------------------------
+ echo Introduce nick de GitHub -----
